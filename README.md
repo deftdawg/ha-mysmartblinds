@@ -27,6 +27,7 @@ key | type | description
 **platform (Required)**                    | string        | `mysmartblinds`
 **username (Required)**                    | string        | Username for the MySmartBlinds application.
 **password (Required)**                    | string        | Password for the MySmartBlinds application.
+**open_position**                          | int           | Tilt position to use when opening blinds. 0 - 100 (default is 50)
 **close_position**                         | int           | Tilt position to use when closing blinds. 0 - 100
 **invert_open_close**                      | boolean       | Invert the open/close values. Can be used to close the blinds with the slates in the opposite direction.
 **include_rooms**                          | boolean       | NOTE: This feature doesn't work correctly. Always set it to `False`.
